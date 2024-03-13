@@ -1,6 +1,6 @@
 public class Book {
 
-    private String name;
+    private final String name;
     private String author;
     private int numberOfSeries;
     private int numberOfLetters;
@@ -44,15 +44,5 @@ public class Book {
     public int getNumberOfLetters(){
         return numberOfLetters;
     }
-    public void setAuthor(String author)
-    {this.author = author;
-    }
-    public void getNumberOfLetters(String NumberOfLetters)
-    {this.numberOfLetters = numberOfLetters;
-    }
-    public void getnumberOfSeries(int numberOfSeries)
-    {this.numberOfSeries = numberOfSeries;
-    }
-
 
 }
