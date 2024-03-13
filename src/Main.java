@@ -12,8 +12,6 @@ public class Main {
         book1 = new Book("Mumu");
         books[0] = book1;
 
-
-
         Reader reader = new Reader();
         Book book2 = new Book("Pushkin","Rasskazi",10,50);
 

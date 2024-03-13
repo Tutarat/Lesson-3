@@ -11,7 +11,6 @@ public class Book {
         this.numberOfLetters = numberOfLetters;
         this.numberOfSeries = numberOfSeries;
     }
-
     public Book(String name, String author, int numberOfLetters){
         this.name = name;
         this.author = author;

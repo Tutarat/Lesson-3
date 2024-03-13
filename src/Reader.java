@@ -4,7 +4,6 @@ import java.util.Random;
 public class Reader {
 
 
-
     public Book choiseBook(Book[] massiv) {
         Random book = new Random();
         return massiv[book.nextInt(2)];
